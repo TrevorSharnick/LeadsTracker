@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Limits the sizing of the extension within the browser */
+    min-width: 400px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #4a6fa5;
+    margin-bottom: 4px;
+}
+
+
+button {
+    background: #4a6fa5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background:white;
+    color: #4a6fa5;
+    padding: 9px 19px;
+    border: 1px solid #4a6fa5;
+    margin-left: 2px;
+}
+
+/* STYLE THE LIST ACCORDING TO THE DESIGN 
+    - made all of the anchor link list items the same green color as the other parts of the app
+    - list-style-type: none; removes the bullet points
+    - padding-left: 0; shifts the position of the list elements to the left
+    - margin-top: 5px; creates a bit more space between the anchor elements
+    */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+/* li a = Only target anchor tags that are INSIDE of list items.
+Otherwise, using 'a' by itself will uniformly style all anchor tags in the app */
+li a {
+    color: #e76f51;
+}
